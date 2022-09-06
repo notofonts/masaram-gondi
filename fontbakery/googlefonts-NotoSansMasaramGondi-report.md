@@ -1,31 +1,11 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.9
+Fontbakery version: 0.8.10
 
-<details><summary><b>[17] NotoSansMasaramGondi-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Version number has increased since previous release on Google Fonts? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump">com.google.fonts/check/version_bump</a>)</summary><div>
-
-
-* 🔥 **FAIL** Version number 1.0030059814453125 is equal to version on Google Fonts.
-* 🔥 **FAIL** Version number 1.0030059814453125 is equal to version on Google Fonts GitHub repo.
-</div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions">com.google.fonts/check/vertical_metrics_regressions</a>)</summary><div>
+<details><summary><b>[13] NotoSansMasaramGondi-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions">com.google.fonts/check/vertical_metrics_regressions</a>)</summary><div>
 
 
 * 🔥 **FAIL** Noto Sans Masaram Gondi Regular: OS/2 sTypoAscender is 827 when it should be 1000 [code: bad-typo-ascender]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansMasaramGondi/googlefonts/ttf/NotoSansMasaramGondi-Regular.ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -39,7 +19,29 @@ Fontbakery version: 0.8.9
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- Nukta.MGondi [code: unattached-dotted-circle-marks]
+	- Nukta.MGondi
+
+	- acutecomb
+
+	- gravecomb
+
+	- tildecomb
+
+	- uni0302
+
+	- uni0304
+
+	- uni0306
+
+	- uni0307
+
+	- uni0308
+
+	- uni030A 
+
+	- And 6 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -61,25 +63,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- parenright
-
-	- exclam
+	- MatraVocalicL.MGondi
 
 	- MatraVocalicLL.MGondi
 
-	- quotedblleft
+	- MatraVocalicRR.MGondi
 
 	- asterisk
 
-	- plus
+	- colon
+
+	- comma
+
+	- divide
+
+	- ellipsis
 
 	- equal
 
-	- percent
-
-	- quotesingle
-
-	- MatraVocalicRR.MGondi 
+	- exclam 
 
 	- And 14 more.
 
@@ -108,7 +110,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 Anusvara.MGondi (U+11D40), Chandra.MGondi (U+11D43), Halanta.MGondi (U+11D44), MatraAa.MGondi (U+11D31), MatraAi.MGondi (U+11D3C), MatraAu.MGondi (U+11D3F), MatraE.MGondi (U+11D3A), MatraI.MGondi (U+11D32), MatraIi.MGondi (U+11D33), MatraO.MGondi (U+11D3D) and 21 more.
+	 Anusvara.MGondi (U+11D40), Chandra.MGondi (U+11D43), Halanta.MGondi (U+11D44), MatraAa.MGondi (U+11D31), MatraAi.MGondi (U+11D3C), MatraAu.MGondi (U+11D3F), MatraE.MGondi (U+11D3A), MatraI.MGondi (U+11D32), MatraIi.MGondi (U+11D33), MatraO.MGondi (U+11D3D) and 6 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -156,8 +158,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 8 | 9 | 116 | 8 | 94 | 0 |
-| 0% | 3% | 4% | 49% | 3% | 40% | 0% |
+| 0 | 4 | 9 | 110 | 7 | 97 | 0 |
+| 0% | 2% | 4% | 48% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
