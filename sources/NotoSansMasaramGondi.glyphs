@@ -1,5 +1,8 @@
 {
-.appVersion = "1356";
+.appVersion = "3109";
+DisplayStrings = (
+"/Ka.MGondi/Visarga.MGondi"
+);
 copyright = "Copyright 2019 Google LLC. All Rights Reserved.";
 customParameters = (
 {
@@ -196,21 +199,21 @@ uni25CC
 );
 },
 {
+name = fsType;
+value = (
+);
+},
+{
 name = description;
 value = "Designed by Ek Type & Mukund Gokhale";
 },
 {
-name = openTypeNameLicense;
+name = license;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.";
 },
 {
-name = openTypeNameLicenseURL;
+name = licenseURL;
 value = "http://scripts.sil.org/OFL";
-},
-{
-name = fsType;
-value = (
-);
 },
 {
 name = vendorID;
@@ -6014,7 +6017,7 @@ category = Letter;
 },
 {
 glyphname = MatraI.MGondi;
-lastChange = "2019-10-22 12:17:12 +0000";
+lastChange = "2022-09-06 10:59:05 +0000";
 layers = (
 {
 background = {
@@ -6082,12 +6085,13 @@ width = 89;
 }
 );
 leftKerningGroup = MatraI.MGondi;
+rightKerningGroup = highmatra;
 unicode = 11D32;
 category = Letter;
 },
 {
 glyphname = MatraIi.MGondi;
-lastChange = "2019-10-22 12:17:12 +0000";
+lastChange = "2022-09-06 10:59:16 +0000";
 layers = (
 {
 background = {
@@ -6155,12 +6159,13 @@ width = 186;
 }
 );
 leftKerningGroup = MatraIi.MGondi;
+rightKerningGroup = highmatra;
 unicode = 11D33;
 category = Letter;
 },
 {
 glyphname = MatraU.MGondi;
-lastChange = "2019-12-10 13:07:35 +0000";
+lastChange = "2022-09-06 11:04:27 +0000";
 layers = (
 {
 background = {
@@ -6232,12 +6237,13 @@ width = 177;
 }
 );
 leftKerningGroup = MatraU.MGondi;
+rightKerningGroup = highmatra;
 unicode = 11D34;
 category = Letter;
 },
 {
 glyphname = MatraUu.MGondi;
-lastChange = "2019-11-25 14:37:01 +0000";
+lastChange = "2022-09-06 11:04:43 +0000";
 layers = (
 {
 background = {
@@ -6309,6 +6315,7 @@ width = 135;
 }
 );
 leftKerningGroup = MatraUu.MGondi;
+rightKerningGroup = highmatra;
 unicode = 11D35;
 category = Letter;
 },
@@ -6367,7 +6374,7 @@ unicode = 11D36;
 },
 {
 glyphname = MatraE.MGondi;
-lastChange = "2019-10-22 12:17:12 +0000";
+lastChange = "2022-09-06 11:05:00 +0000";
 layers = (
 {
 background = {
@@ -6407,12 +6414,13 @@ width = 22;
 }
 );
 leftKerningGroup = MatraE.MGondi;
+rightKerningGroup = highmatra;
 unicode = 11D3A;
 category = Letter;
 },
 {
 glyphname = MatraAi.MGondi;
-lastChange = "2019-11-25 14:37:07 +0000";
+lastChange = "2022-09-06 11:05:15 +0000";
 layers = (
 {
 background = {
@@ -6460,12 +6468,13 @@ width = 171;
 }
 );
 leftKerningGroup = MatraAi.MGondi;
+rightKerningGroup = highmatra;
 unicode = 11D3C;
 category = Letter;
 },
 {
 glyphname = MatraO.MGondi;
-lastChange = "2019-10-22 12:17:12 +0000";
+lastChange = "2022-09-06 11:05:26 +0000";
 layers = (
 {
 background = {
@@ -6523,12 +6532,13 @@ width = 30;
 }
 );
 leftKerningGroup = MatraO.MGondi;
+rightKerningGroup = highmatra;
 unicode = 11D3D;
 category = Letter;
 },
 {
 glyphname = MatraAu.MGondi;
-lastChange = "2019-11-25 14:37:11 +0000";
+lastChange = "2022-09-06 11:05:40 +0000";
 layers = (
 {
 background = {
@@ -6594,6 +6604,7 @@ width = 155;
 }
 );
 leftKerningGroup = MatraAu.MGondi;
+rightKerningGroup = highmatra;
 unicode = 11D3F;
 category = Letter;
 },
@@ -6651,7 +6662,7 @@ category = Letter;
 },
 {
 glyphname = Visarga.MGondi;
-lastChange = "2019-11-23 12:30:46 +0000";
+lastChange = "2022-09-06 11:09:26 +0000";
 layers = (
 {
 background = {
@@ -11990,7 +12001,7 @@ rightKerningGroup = KaHalf.MGondi;
 },
 {
 glyphname = MatraAaChandra.MGondi;
-lastChange = "2019-11-19 04:53:32 +0000";
+lastChange = "2022-09-06 11:06:21 +0000";
 layers = (
 {
 background = {
@@ -12051,6 +12062,7 @@ nodes = (
 width = 20;
 }
 );
+rightKerningGroup = highmatra;
 },
 {
 glyphname = Anusvara.alt.MGondi;
@@ -12298,7 +12310,7 @@ width = 185;
 },
 {
 glyphname = MatraAaAnusvara.MGondi;
-lastChange = "2019-12-10 13:02:20 +0000";
+lastChange = "2022-09-06 11:06:21 +0000";
 layers = (
 {
 background = {
@@ -12356,10 +12368,11 @@ width = 20;
 }
 );
 leftKerningGroup = MatraAaAnusvara.MGondi;
+rightKerningGroup = highmatra;
 },
 {
 glyphname = MatraIAnusvara.MGondi;
-lastChange = "2019-11-25 14:37:39 +0000";
+lastChange = "2022-09-06 11:06:21 +0000";
 layers = (
 {
 background = {
@@ -12411,11 +12424,11 @@ width = 269;
 }
 );
 leftKerningGroup = MatraI.MGondi;
-rightKerningGroup = MatraIAnusvara.MGondi;
+rightKerningGroup = highmatra;
 },
 {
 glyphname = MatraIiAnusvara.MGondi;
-lastChange = "2019-10-22 12:17:12 +0000";
+lastChange = "2022-09-06 11:06:21 +0000";
 layers = (
 {
 background = {
@@ -12445,12 +12458,12 @@ width = 271;
 }
 );
 leftKerningGroup = MatraIi.MGondi;
-rightKerningGroup = MatraIAnusvara.MGondi;
+rightKerningGroup = highmatra;
 rightMetricsKey = MatraIAnusvara.MGondi;
 },
 {
 glyphname = MatraUAnusvara.MGondi;
-lastChange = "2019-10-22 12:17:12 +0000";
+lastChange = "2022-09-06 11:06:21 +0000";
 layers = (
 {
 background = {
@@ -12480,12 +12493,12 @@ width = 280;
 }
 );
 leftKerningGroup = MatraU.MGondi;
-rightKerningGroup = MatraIAnusvara.MGondi;
+rightKerningGroup = highmatra;
 rightMetricsKey = MatraIAnusvara.MGondi;
 },
 {
 glyphname = MatraUuAnusvara.MGondi;
-lastChange = "2019-11-25 14:37:52 +0000";
+lastChange = "2022-09-06 11:06:21 +0000";
 layers = (
 {
 background = {
@@ -12537,12 +12550,12 @@ width = 285;
 }
 );
 leftKerningGroup = MatraUu.MGondi;
-rightKerningGroup = MatraIAnusvara.MGondi;
+rightKerningGroup = highmatra;
 rightMetricsKey = MatraIAnusvara.MGondi;
 },
 {
 glyphname = MatraEAnusvara.MGondi;
-lastChange = "2019-10-22 12:17:12 +0000";
+lastChange = "2022-09-06 11:06:21 +0000";
 layers = (
 {
 background = {
@@ -12572,12 +12585,12 @@ width = 125;
 }
 );
 leftKerningGroup = MatraE.MGondi;
-rightKerningGroup = MatraIAnusvara.MGondi;
+rightKerningGroup = highmatra;
 rightMetricsKey = MatraIAnusvara.MGondi;
 },
 {
 glyphname = MatraAiAnusvara.MGondi;
-lastChange = "2019-10-22 12:17:12 +0000";
+lastChange = "2022-09-06 11:06:21 +0000";
 layers = (
 {
 background = {
@@ -12607,12 +12620,12 @@ width = 276;
 }
 );
 leftKerningGroup = MatraAi.MGondi;
-rightKerningGroup = MatraIAnusvara.MGondi;
+rightKerningGroup = highmatra;
 rightMetricsKey = MatraIAnusvara.MGondi;
 },
 {
 glyphname = MatraOAnusvara.MGondi;
-lastChange = "2019-10-22 12:17:12 +0000";
+lastChange = "2022-09-06 11:06:21 +0000";
 layers = (
 {
 background = {
@@ -12670,11 +12683,11 @@ width = 70;
 }
 );
 leftKerningGroup = MatraO.MGondi;
-rightKerningGroup = MatraOAnusvara.MGondi;
+rightKerningGroup = highmatra;
 },
 {
 glyphname = MatraAuAnusvara.MGondi;
-lastChange = "2019-10-22 12:17:12 +0000";
+lastChange = "2022-09-06 11:06:21 +0000";
 layers = (
 {
 background = {
@@ -12732,12 +12745,12 @@ width = 213;
 }
 );
 leftKerningGroup = MatraAu.MGondi;
-rightKerningGroup = MatraOAnusvara.MGondi;
+rightKerningGroup = highmatra;
 rightMetricsKey = MatraOAnusvara.MGondi;
 },
 {
 glyphname = MatraAaVisarga.MGondi;
-lastChange = "2019-11-23 08:39:36 +0000";
+lastChange = "2022-09-06 11:06:21 +0000";
 layers = (
 {
 background = {
@@ -12855,10 +12868,11 @@ width = 127;
 }
 );
 leftKerningGroup = MatraAaAnusvara.MGondi;
+rightKerningGroup = highmatra;
 },
 {
 glyphname = MatraOVisarga.MGondi;
-lastChange = "2019-10-22 12:17:12 +0000";
+lastChange = "2022-09-06 11:06:21 +0000";
 layers = (
 {
 background = {
@@ -12950,11 +12964,12 @@ width = 251;
 }
 );
 leftKerningGroup = MatraO.MGondi;
+rightKerningGroup = highmatra;
 rightMetricsKey = MatraOAnusvara.MGondi;
 },
 {
 glyphname = MatraAuVisarga.MGondi;
-lastChange = "2019-10-22 12:17:12 +0000";
+lastChange = "2022-09-06 11:06:21 +0000";
 layers = (
 {
 background = {
@@ -13046,11 +13061,12 @@ width = 383;
 }
 );
 leftKerningGroup = MatraAu.MGondi;
+rightKerningGroup = highmatra;
 rightMetricsKey = MatraOAnusvara.MGondi;
 },
 {
 glyphname = MatraAaRepha.MGondi;
-lastChange = "2019-11-23 12:53:14 +0000";
+lastChange = "2022-09-06 11:06:21 +0000";
 layers = (
 {
 layerId = "55C6F8EE-B60C-49C4-8D15-2255C9205224";
@@ -13101,10 +13117,11 @@ width = 160;
 }
 );
 leftKerningGroup = MatraAaRepha.MGondi;
+rightKerningGroup = highmatra;
 },
 {
 glyphname = MatraAaRephaAnusvara.MGondi;
-lastChange = "2019-11-23 12:48:55 +0000";
+lastChange = "2022-09-06 11:06:21 +0000";
 layers = (
 {
 components = (
@@ -13136,6 +13153,7 @@ width = 213;
 }
 );
 leftKerningGroup = MatraAaRepha.MGondi;
+rightKerningGroup = highmatra;
 },
 {
 glyphname = One.alt.MGondi;
@@ -16051,14 +16069,6 @@ instances = (
 {
 customParameters = (
 {
-name = postscriptFontName;
-value = "NotoSansMasaramGondi-Regular";
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Masaram Gondi";
-},
-{
 name = panose;
 value = (
 2,
@@ -16072,6 +16082,14 @@ value = (
 2,
 3
 );
+},
+{
+name = postscriptFontName;
+value = "NotoSansMasaramGondi-Regular";
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Masaram Gondi";
 }
 );
 interpolationWeight = 90;
@@ -16155,6 +16173,7 @@ Tha.MGondi = -12;
 Anusvara.MGondi = -210;
 Chandra.MGondi = 20;
 Ma.MGondi = -50;
+Visarga.MGondi = -70;
 };
 "@MMK_L_KaHalf.MGondi" = {
 "@MMK_R_Ca.MGondi" = -12;
@@ -16255,6 +16274,9 @@ MatraAaChandra.MGondi = 50;
 "@MMK_R_Ka.MGondi" = -20;
 Anusvara.MGondi = -220;
 Chandra.MGondi = -40;
+};
+"@MMK_L_highmatra" = {
+Visarga.MGondi = 200;
 };
 "@MMK_L_quoteleft.MGondi" = {
 Sha.MGondi = 40;
@@ -16542,6 +16564,7 @@ Repha.MGondi = 210;
 MatraVocalicR.MGondi = {
 Repha.MGondi = 120;
 Repha.alt.MGondi = 130;
+Visarga.MGondi = -188;
 };
 Nga.MGondi = {
 "@MMK_R_Ca.MGondi" = -40;
