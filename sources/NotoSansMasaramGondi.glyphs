@@ -2,7 +2,7 @@
 .appVersion = "3109";
 DisplayStrings = (
 "/Ka.MGondi/Visarga.MGondi",
-"/Anusvara.alt.MGondi"
+"/dottedCircle/Nukta.MGondi"
 );
 copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/masaram-gondi)";
 customParameters = (
@@ -15517,16 +15517,16 @@ subCategory = Space;
 },
 {
 glyphname = dottedCircle;
-lastChange = "2022-09-06 11:51:52 +0000";
+lastChange = "2022-09-06 12:04:05 +0000";
 layers = (
 {
 anchors = (
 {
-name = bottom;
+name = bottom1;
 position = "{296, -78}";
 },
 {
-name = top;
+name = top1;
 position = "{294, 699}";
 }
 );
@@ -16116,6 +16116,14 @@ value = 241;
 {
 name = typoLineGap;
 value = 0;
+},
+{
+name = hheaAscender;
+value = 1000;
+},
+{
+name = winAscent;
+value = 995;
 },
 {
 name = postscriptFontName;
