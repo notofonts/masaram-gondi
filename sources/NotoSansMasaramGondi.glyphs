@@ -3,7 +3,7 @@
 DisplayStrings = (
 "/Ka.MGondi/Visarga.MGondi"
 );
-copyright = "Copyright 2019 Google LLC. All Rights Reserved.";
+copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/masaram-gondi)";
 customParameters = (
 {
 name = glyphOrder;
@@ -209,11 +209,11 @@ value = "Designed by Ek Type & Mukund Gokhale";
 },
 {
 name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 },
 {
 name = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://scripts.sil.org/OFL";
 },
 {
 name = vendorID;
@@ -225,7 +225,11 @@ value = "Noto is a trademark of Google LLC";
 },
 {
 name = versionString;
-value = "Version 1.003";
+value = "Version 1.004";
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2020-10-29 19:06:14 +0000";
@@ -16825,5 +16829,5 @@ manufacturer = "Ek Type";
 manufacturerURL = "http://www.google.com/get/noto/";
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 3;
+versionMinor = 4;
 }
