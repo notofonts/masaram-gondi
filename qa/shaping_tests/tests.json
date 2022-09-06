@@ -1,0 +1,9 @@
+{
+	"tests": [
+		{
+			"input": "𑴌𑵁 𑴌𑴱𑵁 𑴌𑴲𑵁 𑴌𑴳𑵁 𑴌𑴴𑵁 𑴌𑴵𑵁 𑴌𑴶𑵁",
+			"expectation": "Ka.MGondi=0+807|Visarga.MGondi=0+155|space=2+380|Ka.MGondi=3+877|MatraAaVisarga.MGondi=3+127|space=6+380|Ka.MGondi=7+887|MatraI.MGondi=7+289|Visarga.MGondi=7+155|space=10+380|Ka.MGondi=11+867|MatraIi.MGondi=11+386|Visarga.MGondi=11+155|space=14+380|Ka.MGondi=15+867|MatraU.MGondi=15+377|Visarga.MGondi=15+155|space=18+380|Ka.MGondi=19+867|MatraUu.MGondi=19+335|Visarga.MGondi=19+155|space=22+380|Ka.MGondi=23+877|MatraVocalicR.MGondi=23+13|Visarga.MGondi=23+155",
+			"note": "#2"
+		}
+	]
+}
