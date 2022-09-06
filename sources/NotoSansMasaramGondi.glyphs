@@ -1,7 +1,8 @@
 {
 .appVersion = "3109";
 DisplayStrings = (
-"/Ka.MGondi/Visarga.MGondi"
+"/Ka.MGondi/Visarga.MGondi",
+"/Anusvara.alt.MGondi"
 );
 copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/masaram-gondi)";
 customParameters = (
@@ -204,6 +205,10 @@ value = (
 );
 },
 {
+name = "Use Typo Metrics";
+value = 1;
+},
+{
 name = description;
 value = "Designed by Ek Type & Mukund Gokhale";
 },
@@ -226,10 +231,6 @@ value = "Noto is a trademark of Google LLC";
 {
 name = versionString;
 value = "Version 1.004";
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 }
 );
 date = "2020-10-29 19:06:14 +0000";
@@ -258,10 +259,17 @@ name = calt;
 {
 code = "lookup sso1a {\012sub Anusvara.MGondi by Anusvara.alt.MGondi;\012sub Visarga.MGondi by Visarga.alt.MGondi;\012sub Repha.MGondi by Repha.alt.MGondi;\012}sso1a;\012\012lookup sso1b {\012sub MatraAaAnusvara.MGondi by Anusvara.alt.MGondi MatraAa.MGondi;\012sub MatraIAnusvara.MGondi by Anusvara.alt.MGondi MatraI.MGondi;\012sub MatraIiAnusvara.MGondi by Anusvara.alt.MGondi MatraIi.MGondi;\012sub MatraUAnusvara.MGondi by Anusvara.alt.MGondi MatraU.MGondi;\012sub MatraUuAnusvara.MGondi by Anusvara.alt.MGondi MatraUu.MGondi;\012sub MatraEAnusvara.MGondi by Anusvara.alt.MGondi MatraE.MGondi;\012sub MatraAiAnusvara.MGondi by Anusvara.alt.MGondi MatraAi.MGondi;\012sub MatraOAnusvara.MGondi by Anusvara.alt.MGondi MatraO.MGondi;\012sub MatraAuAnusvara.MGondi by Anusvara.alt.MGondi MatraAu.MGondi;\012sub MatraAaVisarga.MGondi by MatraAa.MGondi Visarga.alt.MGondi;\012sub MatraOVisarga.MGondi by MatraO.MGondi Visarga.alt.MGondi;\012sub MatraAuVisarga.MGondi by MatraAu.MGondi Visarga.alt.MGondi;\012sub MatraAaRepha.MGondi by MatraAa.MGondi Repha.alt.MGondi;\012sub MatraAaRephaAnusvara.MGondi by Anusvara.alt.MGondi MatraAa.MGondi Repha.alt.MGondi;\012}sso1b;\012";
 name = ss01;
+notes = "Name: Alternate anusvara and visarga positions";
 },
 {
 code = "sub One.MGondi by One.alt.MGondi;\012sub Four.MGondi by Four.alt.MGondi;\012sub Five.MGondi by Five.alt.MGondi;\012sub Six.MGondi by Six.alt.MGondi;";
 name = ss02;
+notes = "Name: Alternate numerals";
+},
+{
+automatic = 1;
+code = "feature calt;\012feature ss01;\012feature ss02;\012";
+name = aalt;
 }
 );
 fontMaster = (
@@ -15509,9 +15517,19 @@ subCategory = Space;
 },
 {
 glyphname = dottedCircle;
-lastChange = "2019-10-22 12:17:12 +0000";
+lastChange = "2022-09-06 11:51:52 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{296, -78}";
+},
+{
+name = top;
+position = "{294, 699}";
+}
+);
 background = {
 paths = (
 {
@@ -16086,6 +16104,18 @@ value = (
 2,
 3
 );
+},
+{
+name = typoAscender;
+value = 1000;
+},
+{
+name = winDescent;
+value = 241;
+},
+{
+name = typoLineGap;
+value = 0;
 },
 {
 name = postscriptFontName;
