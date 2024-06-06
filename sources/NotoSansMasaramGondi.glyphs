@@ -226,10 +226,6 @@ value = GOOG;
 {
 name = trademark;
 value = "Noto is a trademark of Google LLC";
-},
-{
-name = versionString;
-value = "Version 1.004";
 }
 );
 date = "2020-10-29 19:06:14 +0000";
@@ -16866,5 +16862,5 @@ manufacturer = "Ek Type";
 manufacturerURL = "http://www.google.com/get/noto/";
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 4;
+versionMinor = 5;
 }
